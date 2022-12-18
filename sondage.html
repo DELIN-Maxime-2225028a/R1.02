@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="" content="" />
+    <title>Avis</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="css/changeStyle.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+  </head>
+
+  <body>
+    <div class="box">
+      <nav>
+        <div class="container">
+          <section>
+            <a href="index.html"> <img src="img/favicon.png" width=1% height=1%></a>
+            <a href="histoire.html">Histoire</a>
+            <a href="carte.html">Carte du jeu</a>
+            <a href="esport.html">ESport</a>
+            <input onclick="style()" type="checkbox" id="switch" /><label for="switch">Mode sombre</label>
+          </section>
+        </div>
+      </nav>
+
+      <div class="articles">
+        <section>
+          <article id="article2">
+            <h3 id="art2">Votre avis nous intéresse !</h3>
+
+              <p><label for="prenom"> Prénom </label> <input id="prenom" type="text" name="prenom" value=" "/><br/>
+              <label for="nom"> Nom </label> <input id="nom" type="text" name="nom" value=" "/> <br/><br/>
+
+              <input id="sexeHomme" type="radio" name="sexe" value="homme"/> <label for="sexeHomme"> Homme </label>
+              <input id="sexeFemme" type="radio" name="sexe" value="femme"/> <label for="sexeFemme"> Femme </label>
+              <input id="sexeAutre" type="radio" name="sexe" value="Autre"/> <label for="sexeAutre"> Autre </label> <br/><br/>
+
+              <label for="role" id="label-role">Quelle est votre activité actuelle ?</label>
+                <select name="role" id="role">
+                <option value="etudiant">Étudiant</option>
+                <option value="professionnel">Professionnel</option>
+                <option value="autre">Autre</option>
+                </select><br/><br>
+
+                <p>Donnez une note au site :</p>
+                <input id="avis" type="radio" name="avis" value="1"/> <label for="1"> 1 | </label>
+                <input id="avis" type="radio" name="avis" value="2"/> <label for="2"> 2 | </label>
+                <input id="avis" type="radio" name="avis" value="3"/> <label for="3"> 3 | </label>
+                <input id="avis" type="radio" name="avis" value="4"/> <label for="4"> 4 | </label>
+                <input id="avis" type="radio" name="avis" value="5"/> <label for="5"> 5 </label><br/><br/>
+
+                 <input type="submit" value="Envoyer"/></p>
+          </article>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <p><a href="apropos.html">à propos</a>-<a href="sources.html">sources</a>-<a href="sondage.html">sondage</a></p>
+    </footer>
+  </body>
+</html>

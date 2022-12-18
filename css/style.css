@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-image: url("../img/metal.jpg");
+  overflow:hidden;
+  scroll-behavior:smooth;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF;
+  position: fixed;
+  margin-bottom: 3%;
+  background-color: #EEF;
+  text-align: center;
+  border: 2px solid #000;
+  width: 100%;
+  top: 0;
+}
+
+nav .container {
+  height:calc(3em + 4px);
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lime;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+section {
+  padding:calc(1em + 2px);
+  width:100%;
+}
+
+a {
+  border:solid 1px transparent;
+  padding:1em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: #EEF;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.articles {
+  display: auto;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5%;
+  right: 10%;
+  left: 10%
+}
+
+#article1 {
+  font-size: 20px;
+  column-count: 2;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#art1 {
+  background-color: #9F9;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 15px;
+  font-size: 2em
+}
+
+#article2 {
+  font-size: 20px;
+  column-count: 1;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#art2 {
+  background-color: #9F9;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 15px;
+  font-size: 2em;
+}
+
+#article3 {
+  font-size: 20px;
+  column-count: 1;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#art3 {
+  background-color: #9F9;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 15px;
+  font-size: 2em;
+}
+
+footer {
+  background-image: url("../img/metal.jpg");
+  background-color: #EEF;
+  border: 1px solid #000;
+  padding-right: 3%;
+  padding-left: 3%;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
